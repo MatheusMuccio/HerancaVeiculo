@@ -1,5 +1,13 @@
 public class Carro extends Veiculo {
     
-    public String porta;
+    private String porta;
+
+    public String getPorta() {
+        return porta;
+    }
+
+    public void setPorta(String porta) {
+        this.porta = porta;
+    }
     
 }
